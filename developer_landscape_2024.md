@@ -8,9 +8,9 @@
 
 ## Introduction: The Digital Architects of Our World
 
-In today's technology-driven world, software developers are the architects building the digital infrastructure that powers our daily lives. From the apps on our phones to the complex systems managing global finance, these professionals shape how we interact with technology. But who exactly are these developers? What tools do they use? How do they work and learn? And perhaps most importantly, what can this tell us about the future of technology?
+In today's technology-driven world, software developers are the architects building the digital infrastructure that powers our daily lives. These professionals shape how we interact with technology, from the apps on our phones to the complex systems managing global finance. But who exactly are these developers? What tools do they use? How do they work and learn? And perhaps most importantly, what can this tell us about the future of technology?
 
-To answer these questions, I dove deep into the Stack Overflow Annual Developer Survey 2024, analyzing responses from over 65,000 developers across the globe. This analysis reveals a comprehensive picture of the developer ecosystem, highlighting trends that impact how companies hire, how educational institutions train the next generation, and how technology itself evolves.
+To answer these questions, I dove deep into the Stack Overflow Annual Developer Survey 2024, analyzing responses from over 65,000 developers worldwide. This analysis reveals a comprehensive picture of the developer ecosystem, highlighting trends that impact how companies hire, how educational institutions train the next generation, and how technology itself evolves.
 
 Join me on this data-driven journey as we explore the people behind the code and uncover the patterns shaping our digital future.
 
@@ -20,7 +20,7 @@ Join me on this data-driven journey as we explore the people behind the code and
 
 ### The Age Spectrum: Youth Leads the Way
 
-![Age Distribution](./results\figures\01_age_distribution.png)
+![Age Distribution](results/figures/01_age_distribution.png)
 
 The first question we might ask is: **Who are today's developers?** Looking at the age distribution reveals a profession dominated by youth and mid-career professionals:
 
@@ -34,7 +34,7 @@ The presence of developers under 18 signals early entry paths into the field, wh
 
 ### Experience Levels: The Great Influx
 
-![Experience Distribution](results\figures\02_experience_distribution.png)
+![Experience Distribution](results/figures/02_experience_distribution.png)
 
 When we examine experience levels, an even more interesting pattern emerges:
 
@@ -48,7 +48,7 @@ The long tail extending to 40+ years of experience represents a small but import
 
 ### Education: Multiple Paths to Success
 
-![Educational Background](results\figures\03_education_background.png)
+![Educational Background](results/figures/03_education_background.png)
 
 The traditional path to becoming a developer has typically involved formal higher education, and our analysis confirms this pattern continues:
 
@@ -67,7 +67,7 @@ This educational diversity reflects the industry's growing recognition that skil
 
 ### Languages: JavaScript's Continued Reign
 
-![Top Programming Languages](./figures/04_top_languages.png)
+![Top Programming Languages](results/figures/04_top_languages.png)
 
 The tools developers use provide insight into current industry priorities and future directions:
 
@@ -82,7 +82,7 @@ TypeScript's rise represents a significant shift toward type safety and better t
 
 ### Frameworks: Node.js and React Lead the Pack
 
-![Top Frameworks](./figures/05_top_frameworks.png)
+![Top Frameworks](results/figures/05_top_frameworks.png)
 
 The framework ecosystem reveals even clearer patterns of technology adoption:
 
@@ -93,11 +93,11 @@ The framework ecosystem reveals even clearer patterns of technology adoption:
 
 The continued dominance of Node.js and React points to the JavaScript ecosystem's central role in modern development. The persistence of jQuery, despite newer alternatives, demonstrates the significant inertia in technology adoption - established codebases don't disappear overnight.
 
-The emergence of Next.js in the top frameworks indicates the industry's move toward more integrated, opinionated solutions that address common pain points in web development.
+The emergence of Next.js of the top frameworks indicates the industry's move toward more integrated, opinionated solutions that address common pain points in web development.
 
 ### Databases: PostgreSQL Takes the Crown
 
-![Top Databases](./figures/06_top_databases.png)
+![Top Databases](results/figures/06_top_databases.png)
 
 In the database world, a clear hierarchy has emerged:
 
@@ -108,7 +108,7 @@ In the database world, a clear hierarchy has emerged:
 
 PostgreSQL's rise to the top position signals a shift in database preferences, likely driven by its robust feature set, reliability, and strong SQL standard compliance. 
 
-The continued strength of relational databases (PostgreSQL, MySQL, SQLite, SQL Server, MariaDB) demonstrates that despite the NoSQL movement, structured data and SQL remain fundamental to most applications.
+The continued strength of relational databases (PostgreSQL, MySQL, SQLite, SQL Server, MariaDB) demonstrates that, despite the NoSQL movement, structured data and SQL remain fundamental to most applications.
 
 ---
 
@@ -116,7 +116,7 @@ The continued strength of relational databases (PostgreSQL, MySQL, SQLite, SQL S
 
 ### Work Arrangements: The Hybrid Revolution
 
-![Work Arrangement Distribution](./figures/07_remote_work_distribution.png)
+![Work Arrangement Distribution](results/figures/07_remote_work_distribution.png)
 
 Perhaps no aspect of developer work has changed more dramatically in recent years than where and how they work:
 
@@ -126,11 +126,11 @@ Perhaps no aspect of developer work has changed more dramatically in recent year
 
 The data reveals a profound shift in work arrangements, with flexible options (hybrid + remote) accounting for approximately 80% of all developer work setups. This revolution in work arrangements has significant implications for office space, team collaboration tools, and geographic hiring strategies.
 
-The traditional office-only model has clearly shifted to minority status, suggesting that the pandemic-induced changes in work patterns have become permanent features of the developer landscape.
+The traditional office-only model has shifted to minority status, suggesting that the pandemic-induced changes in work patterns have become permanent features of the developer landscape.
 
 ### Work Arrangements by Age: Different Generations, Different Preferences
 
-![Work Arrangement by Age](./figures/10_work_arrangement_by_age.png)
+![Work Arrangement by Age](results/figures/10_work_arrangement_by_age.png)
 
 Diving deeper into work arrangements, we see interesting patterns across age groups:
 
@@ -143,26 +143,26 @@ These patterns suggest that work arrangement preferences vary significantly with
 
 ### Job Satisfaction: Size Doesn't Matter (Much)
 
-![Job Satisfaction by Company Size](./figures/08_job_satisfaction_by_company_size.png)
+![Job Satisfaction by Company Size](results/figures/08_job_satisfaction_by_company_size.png)
 
 How satisfied are developers with their jobs, and does company size affect satisfaction?
 
-- **Smallest organizations excel**: Freelancers and tiny companies report highest satisfaction
+- **Smallest organizations excel**: Freelancers and tiny companies report the highest satisfaction
 - **Consistent satisfaction band**: Most company sizes cluster around 6-7 on a 10-point scale
 - **No clear downward trend** with increasing company size
 - **All company sizes show maximum ratings near 10**
 
-The data challenges the notion that smaller companies inherently offer better developer experiences. While the smallest organizations do show slightly higher median satisfaction, the consistent band across company sizes suggests that factors beyond company size—such as team dynamics, project interest, and individual autonomy—likely have greater impact on job satisfaction.
+The data challenges the notion that smaller companies inherently offer better developer experiences. While the smallest organizations do show slightly higher median satisfaction, the consistent band across company sizes suggests that factors beyond company size, such as team dynamics, project interest, and individual autonomy, likely havea  greater impact on job satisfaction.
 
 ### What Drives Satisfaction? Not Just Money
 
-![Correlation Matrix](./figures/09_correlation_matrix.png)
+![Correlation Matrix](results/figures/09_correlation_matrix.png)
 
 When we examine the correlations between key variables, surprising patterns emerge:
 
 - **Money doesn't buy happiness**: Compensation and job satisfaction show negligible correlation (0.05)
 - **Experience yields modest financial returns**: Coding experience correlates weakly with compensation (0.15)
-- **Experience barely influences satisfaction**: Years of experience shows minimal correlation with job satisfaction (0.09-0.10)
+- **Experience barely influences satisfaction**: Years of experience show minimal correlation with job satisfaction (0.09-0.10)
 
 These weak correlations challenge conventional wisdom about what drives developer career satisfaction. The negligible relationship between compensation and satisfaction suggests that once basic financial needs are met, other factors like autonomy, mastery, purpose, and work-life balance likely play more important roles in job satisfaction.
 
@@ -172,7 +172,7 @@ These weak correlations challenge conventional wisdom about what drives develope
 
 ### Experience Across Borders: Uneven Distribution
 
-![Experience by Country](./figures/11_experience_by_country.png)
+![Experience by Country](results/figures/11_experience_by_country.png)
 
 Developer experience is not distributed evenly across the globe:
 
@@ -181,13 +181,13 @@ Developer experience is not distributed evenly across the globe:
 - **India displays the youngest developer workforce** (median ~3 years)
 - **Poland and Ukraine** represent growing tech hubs with newer talent pools (medians ~5-6 years)
 
-This uneven distribution tells a story of industry maturity and growth patterns. The US and UK's deeper experience pools reflect their status as early adopters of software development. India's younger workforce signals its position as an emerging tech power experiencing rapid growth and new talent influx.
+This uneven distribution tells a story of industry maturity and growth patterns. The US and UK's deeper experience pools reflect their status as early adopters of software development. India's younger workforce signals its position as an emerging tech power experiencing rapid growth and a new talent influx.
 
 All countries show veteran outliers with 40+ years of experience, demonstrating the global reach of the earliest waves of programming pioneers.
 
 ### Compensation vs. Experience: Geography Trumps Tenure
 
-![Compensation vs Experience](./figures/14_compensation_vs_experience.png)
+![Compensation vs Experience](results/figures/14_compensation_vs_experience.png)
 
 One of the most striking findings is the relationship between geography, experience, and compensation:
 
@@ -199,11 +199,11 @@ One of the most striking findings is the relationship between geography, experie
   - **Lower-middle** ($30K-50K): Croatia, Chile, Argentina, China
   - **Bottom tier** (<$20K): Bangladesh, Egypt, Ghana, Algeria, Afghanistan
 
-The stark 10x compensation gap between highest and lowest regions for similar experience levels reveals how profoundly geography impacts developer economics. This has important implications for remote work, global talent strategies, and individual career decisions.
+The stark 10x compensation gap between the highest and lowest regions for similar experience levels reveals how profoundly geography impacts developer economics. This has important implications for remote work, global talent strategies, and individual career decisions.
 
 ### The Global Value Proposition: Affordability Champions
 
-![Top Affordable Countries](./figures/21_top_affordable_countries.png)
+![Top Affordable Countries](results/figures/21_top_affordable_countries.png)
 
 When we adjust for cost of living, unexpected champions emerge:
 
@@ -217,11 +217,11 @@ This affordability analysis reveals surprising "sweet spots" where developer com
 
 ### Local Purchasing Power: The Three-Tier World
 
-![Local Purchasing Power](./figures/22_local_purchasing_power.png)
+![Local Purchasing Power](results/figures/22_local_purchasing_power.png)
 
 Looking at local purchasing power reveals a starkly divided developer economy:
 
-- **Australia leads dramatically** (~130 index) with highest developer purchasing power
+- **Australia leads dramatically** (~130 index) with the highest developer purchasing power
 - **Western European strength** shown by Belgium (~115) and Austria (~105)
 - **Bulgaria bridges the gap** (~75) between Western economies and emerging markets
 - **Latin American struggle** evident with Argentina (~45) and Brazil (~40)
@@ -235,7 +235,7 @@ These differences create a three-tier world for developers: premium Western mark
 
 ### How Developers Learn: The Digital Shift
 
-![Learning Methods](./figures/16_learning_methods.png)
+![Learning Methods](results/figures/16_learning_methods.png)
 
 Understanding how developers acquire skills provides insight into the evolving education landscape:
 
@@ -250,7 +250,7 @@ The continued relevance of books alongside digital resources suggests that deepe
 
 ### Developer Roles: Full-Stack Dominance
 
-![Developer Roles](./figures/17_developer_roles.png)
+![Developer Roles](results/figures/17_developer_roles.png)
 
 The distribution of developer roles reveals industry priorities and specialization patterns:
 
@@ -269,7 +269,7 @@ The strong presence of students indicates a robust pipeline of new talent enteri
 
 ### Emerging Technologies: Deepening Existing Skills
 
-![Emerging Technologies](./figures/23_emerging_technologies.png)
+![Emerging Technologies](results/figures/23_emerging_technologies.png)
 
 Looking at the technologies developers plan to adopt reveals future priorities:
 
@@ -296,7 +296,7 @@ The comprehensive analysis of the Stack Overflow Developer Survey 2024 reveals a
 
 4. **Global Stratification**: Developer economics showing stark regional variations, creating distinct tiers of opportunity and challenges worldwide
 
-5. **Learning Revolution**: Self-directed, online learning becoming the primary mode of skill acquisition, complemented by traditional education
+5. **Learning Revolution**: Self-directed, online learning is becoming the primary mode of skill acquisition, complemented by traditional education
 
 6. **Role Evolution**: Versatility (full-stack development) valued over deep specialization, reflecting complex application requirements
 
@@ -308,7 +308,7 @@ The developer ecosystem continues to evolve, but the data suggests we've reached
 
 ## Methodology
 
-This analysis examined responses from 65,437 participants in the Stack Overflow Annual Developer Survey 2024, supplemented with cost of living data from Numbeo's Cost of Living Index 2024.
+This analysis examined responses from 65,437 participants in the Stack Overflow Annual Developer Survey 2024, supplemented with cost-of-living data from Numbeo's Cost of Living Index 2024.
 
 Data cleaning involved converting string representations to appropriate numeric types and handling missing values. For multi-response fields (separated by semicolons), custom functions were used to split and count individual responses.
 
@@ -318,4 +318,4 @@ All visualizations were created using Python with Matplotlib and Seaborn, follow
 
 ---
 
-*This analysis was conducted by [Your Name] in [Month Year]. For questions or further discussion, please contact [maqbuul@outlook.com] or connect on [LinkedIn/GitHub/Twitter].*
+*This analysis was conducted by [Abdiwahid H. Ali] in [04/2025]. For questions or further discussion, please contact [maqbuul@outlook.com] or connect on [].*
