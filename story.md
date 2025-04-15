@@ -1,5 +1,7 @@
 # 2024 Global Developer Landscape Report
 
+![Tech Jobs](pexels-cottonbro-6803543.jpg)
+
 ## Executive Summary
 
 This comprehensive analysis examines the state of software development in 2024, providing key insights into global work preferences, demographics, technology adoption, compensation patterns, and job satisfaction. Drawing from an extensive developer survey, this report reveals critical trends that impact developers, employers, educational institutions, and policymakers worldwide.
