@@ -122,9 +122,8 @@ Key visualizations include:
 
 ## Key Documents
 
-- [📊 Main Analysis Notebook](notebook/stack_overflow_analysis.ipynb) - Complete exploratory data analysis of the developer survey
-- [📝 Developer Story](story.md) - Narrative summary of key findings and insights
-- [📘 Full Report](developer_landscape.md) - Comprehensive report with detailed analysis and recommendations
+- [Main Analysis Notebook](notebook/stack_overflow_analysis.ipynb) - Complete exploratory data analysis of the developer survey
+- [Full Report](./report//story.md) - Narrative summary of key findings and insights
 
 ## Contributing
 
