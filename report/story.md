@@ -1,6 +1,6 @@
 # 2024 Global Developer Landscape Report
 
-![Tech Jobs](pexels-cottonbro-6803543.jpg)
+![Tech Jobs](/pexels-cottonbro-6803543.jpg)
 
 ## Executive Summary
 
